@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="How RestRoll uses camera access and handles recordings and MP4 exports.">
+  <title>RestRoll Privacy Policy · 隐私政策</title>
+  <style>
+    :root { color-scheme: light dark; --page: #eeedf5; --panel: #fff; --ink: #19182b; --muted: #514e67; --line: #dbd9e9; --link: #4335a6; }
+    @media (prefers-color-scheme: dark) {
+      :root { --page: #13121c; --panel: #1d1b2b; --ink: #f3f1fc; --muted: #c8c3db; --line: #38344b; --link: #c6baff; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--page); color: var(--ink); font: 1rem/1.65 system-ui, -apple-system, BlinkMacSystemFont, sans-serif; }
+    .wrap { max-width: 49rem; margin: 0 auto; padding: clamp(1rem, 4vw, 2.7rem); }
+    header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    nav { display: flex; gap: 1rem; }
+    a { color: var(--link); text-underline-offset: .2em; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+    article { background: var(--panel); border: 1px solid var(--line); border-radius: 1.1rem; padding: clamp(1rem, 4vw, 2rem); margin-bottom: 1rem; scroll-margin-top: 1rem; overflow-wrap: anywhere; }
+    h1, h2, h3 { line-height: 1.2; }
+    h1, .policy-heading { font-size: clamp(1.85rem, 5vw, 2.65rem); margin: 0; letter-spacing: -.025em; }
+    article h2:not(.policy-heading), article h3 { font-size: 1.12rem; margin: 1.5rem 0 .4rem; }
+    article p { margin: 0; }
+    article p + p { margin-top: .7rem; }
+    .updated { color: var(--muted); font-size: .875rem; margin: .6rem 0 1.4rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <strong>RestRoll</strong>
+      <nav aria-label="Language / 语言">
+        <a href="#en" lang="en">English</a>
+        <a href="#zh-cn" lang="zh-CN">简体中文</a>
+      </nav>
+    </header>
+    <main>
+      <article id="en" lang="en" aria-labelledby="heading-en">
+        <h1 id="heading-en">Privacy Policy</h1>
+        <div class="updated">Updated <time datetime="2026-11-20">November 20, 2026</time></div>
+        <p>This policy explains how RestRoll, published by 小猪跳动, handles information in the app.</p>
+
+        <h2>Camera access</h2>
+        <p>RestRoll uses camera access to show a preview and record video when you start recording. An active recording can continue when the screen is off or locked. A system notification shows the recording status and provides a stop control where your device allows it. The app records video without audio and does not request microphone access.</p>
+
+        <h2>Processing and storage on your device</h2>
+        <p>Camera images, recorded videos, timestamps and recording preferences are processed on your device. Originals are stored in the app’s private storage. The app checks local information such as available storage, battery level and camera access to manage recording. It may use app cache to prepare an MP4 copy during export.</p>
+        <p>RestRoll does not use accounts, ads or analytics. It does not send your recordings or device data to the developer. The app excludes recordings from its Android backup and transfer configuration.</p>
+
+        <h2>MP4 exports</h2>
+        <p>When you choose to export a recording, Android asks you to select a destination for the MP4 copy. If you choose another app or a cloud storage provider, that provider handles the copy according to its own policies. The export does not delete the original.</p>
+
+        <h2>Retention and deletion</h2>
+        <p>Original recordings remain in private app storage until you delete them in Saved recordings, clear the app’s storage in Android settings, or uninstall the app. Exported copies are stored at the destinations you chose. To remove an exported copy, delete it from that destination separately.</p>
+
+        <h2>Contact</h2>
+        <p>For privacy questions, contact 小猪跳动 at <a href="mailto:narutow.cn@gmail.com">narutow.cn@gmail.com</a>. If you write to us, we use the email address and details you provide to respond to your request.</p>
+      </article>
+
+      <article id="zh-cn" lang="zh-CN" aria-labelledby="heading-zh">
+        <h2 class="policy-heading" id="heading-zh">隐私政策</h2>
+        <div class="updated">更新于 <time datetime="2026-11-20">2026 年 11 月 20 日</time></div>
+        <p>本政策说明 小猪跳动 发布的 RestRoll 如何处理 App 内的信息。</p>
+
+        <h3>相机访问</h3>
+        <p>RestRoll 使用相机权限显示预览，并在你主动开始录制后录制视频。息屏或锁屏后，已经开始的录制可以继续。系统通知会显示录制状态，并在设备允许时提供停止入口。App 只录制画面，不录声音，也不会申请麦克风权限。</p>
+
+        <h3>在你的设备上处理和保存</h3>
+        <p>相机画面、录像、时间信息和录制设置在你的设备上处理，录像原件保存在 App 私有存储中。App 检查本机剩余空间、电量和相机访问状态等信息，以管理录制。导出 MP4 时，App 可能使用自身缓存暂存副本。</p>
+        <p>RestRoll 无账号、广告或分析功能。App 不会将你的录像或设备数据发送给开发者。App 的 Android 备份和设备迁移配置排除了录像。</p>
+
+        <h3>导出 MP4</h3>
+        <p>你选择导出录像时，Android 会让你指定 MP4 副本的存放位置。如果你选择其他 App 或云存储服务，该服务会按自己的政策处理副本。导出会保留原件。</p>
+
+        <h3>保留与删除</h3>
+        <p>录像原件保存在 App 私有存储中，直到你在「已保存的录像」删除原件、在 Android 设置中清除 App 存储，或卸载 App。导出副本保存在你选定的位置，如需移除，请在该位置单独删除。</p>
+
+        <h3>联系方式</h3>
+        <p>如有隐私问题，请通过 <a href="mailto:narutow.cn@gmail.com">narutow.cn@gmail.com</a> 联系 小猪跳动。你来信时提供的邮箱地址和信息将用于回复你的请求。</p>
+      </article>
+    </main>
+  </div>
+</body>
+</html>
