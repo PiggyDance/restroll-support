@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:05,970
+Tap Start recording in the visible app.
+
+2
+00:00:05,970 --> 00:00:10,230
+The ongoing notification shows Stop and Panel.
+
+3
+00:00:10,230 --> 00:00:15,920
+The display is off. The recording continues.
+
+4
+00:00:15,920 --> 00:00:18,130
+Wake the device and use lock screen controls.
+
+5
+00:00:18,130 --> 00:00:21,290
+Tap Stop and save.
+
+6
+00:00:21,290 --> 00:00:27,834
+Open and play the saved video on-device.
